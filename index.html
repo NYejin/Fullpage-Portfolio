@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullpage Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fullpage.css">
+    <link rel="stylesheet" href="css/basic.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/fullpage.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div id="header_wrap">
+        <header>
+            <h1 class="logo">Yejin's Web Portfolio</h1>
+
+            <nav>
+                <ul class="menu">
+                    <li><a href="#1" data-menuanchor="home">Home</a></li>
+                    <li><a href="#2" data-menuanchor="aboutme">About ME</a></li>
+                    <li><a href="#3" data-menuanchor="skills">Skills</a></li>
+                    <li><a href="#4" data-menuanchor="portfolio">Portfolio</a></li>
+                    <li><a href="#5" data-menuanchor="gallery">Photo Gallery</a></li>
+                    <li><a href="#6" data-menuanchor="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+
+    <div id="fullpage">
+        <section class="section" id="s1">
+            <video class="overlay-video" loop muted="true" playsinline data-autoplay>
+                <source src="img/v1.mp4" type="video/mp4">
+            </video>
+            <div class="layer intro">
+                <h1>Yejin's Web Portfolio</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, laborum repudiandae quae quos blanditiis eveniet, dolorum eum excepturi quam voluptatem, aut ea voluptate est voluptas. Quisquam consequatur rem fugit molestias?</p>
+            </div>
+        </section>
+
+        <section class="section" id="s2">
+            <div class="slide"><h1><span>s2-1</span>About ME</h1></div>
+            <div class="slide"><h1><span>s2-2</span></h1></div>
+            <div class="slide">
+                <video class="overlay-video" loop muted="true" playsinline data-autoplay>
+                    <source src="img/v2.mp4" type="video/mp4">
+                </video>
+                <div class="layer">
+                    <h1><span>s2-3</span></h1>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="s3">
+            <iframe class="overlay-youtube" src="https://www.youtube.com/embed/wyxxPTFfdi8?si=0uE0qDpdWPmNV0VL&&autoplay=1&muted=1&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="layer">
+                <h1><span>s3-</span>Skills</h1>
+            </div>
+        </section>
+        <section class="section" id="s4">
+            <iframe class="overlay-youtube" src="https://www.youtube.com/embed/iApVVKsF94E?si=ATlpleJd9HkWov2o&autoplay=1&muted=1&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="layer">
+                <h1><span>s4-</span>Portfolio</h1>
+            </div>
+        </section>
+        <section class="section" id="s5">
+            <div class="container">
+                <h1><span>s5-</span>Photo Gallery</h1>
+            </div>
+        </section>
+        <section class="section" id="s6">
+            <div class="container">
+                <h1><span>s6-</span>Contact</h1>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
